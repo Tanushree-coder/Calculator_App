@@ -10,13 +10,14 @@ class MainActivity : AppCompatActivity() {
 
     var lastNumeric:Boolean=false
     var lastDot:Boolean=false
-    var tv1:TextView= findViewById(R.id.tvInput)
+    lateinit var tv1:TextView
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        tv1= findViewById(R.id.tvInput)
     }
-    //var tv1:TextView= findViewById(R.id.tvInput)
+
     fun onDigit (view: View)
     {
         //var tv1:TextView= findViewById(R.id.tvInput)
