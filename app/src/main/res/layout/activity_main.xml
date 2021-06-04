@@ -35,10 +35,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#606060"
             android:onClick="onDigit"
             android:text="7"
-            android:backgroundTint="#606060"
-             />
+            android:padding="20dp"
+            app:cornerRadius="50dp" />
 
         <Button
             android:id="@+id/btnEight"
@@ -48,7 +49,8 @@
             android:text="8"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
-
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -60,7 +62,8 @@
             android:text="9"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
-
+            android:padding="20dp"
+            app:cornerRadius="50dp"
             />
 
         <Button
@@ -71,7 +74,8 @@
             android:text="/"
             android:onClick="onOperator"
             android:backgroundTint="#606060"
-
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -94,7 +98,8 @@
             android:text="4"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
-
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -106,6 +111,8 @@
             android:text="5"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -118,6 +125,8 @@
             android:text="6"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
 
             />
@@ -130,6 +139,8 @@
             android:text="*"
             android:onClick="onOperator"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -152,6 +163,8 @@
             android:text="1"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -163,6 +176,8 @@
             android:text="2"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -174,6 +189,8 @@
             android:text="3"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -185,6 +202,8 @@
             android:text="-"
             android:onClick="onOperator"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
 
             />
@@ -208,6 +227,8 @@
             android:text="."
             android:onClick="onDecimalPoint"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
             />
 
@@ -219,6 +240,8 @@
             android:text="0"
             android:onClick="onDigit"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
 
             />
@@ -231,6 +254,8 @@
             android:text="C"
             android:onClick="onClear"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
 
             />
@@ -243,6 +268,8 @@
             android:text="+"
             android:onClick="onOperator"
             android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp"
 
 
             />
@@ -263,7 +290,9 @@
             android:layout_height="match_parent"
             android:text="="
             android:onClick="onEqual"
-            android:backgroundTint="#606060" >
+            android:backgroundTint="#606060"
+            android:padding="20dp"
+            app:cornerRadius="50dp">
 
         </Button>
     </LinearLayout>
